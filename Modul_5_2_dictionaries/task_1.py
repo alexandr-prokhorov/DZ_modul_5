@@ -102,7 +102,7 @@ print()
 # Возможно не правильно понял Шаг 2, надо ли выводить answer в терминал?,
 # В любом случае она в программе сохраняется в виде словаря.
 for key, value in answer.items():
-    print(f'"{key}":, {value},')
+    print(f'"{key}": {value},')
 print()
 print("Правильно отвечены слова:")
 for item in true_answer:
